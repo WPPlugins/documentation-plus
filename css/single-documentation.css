@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.single-documentation{}
+
+
+.single-documentation .doc-sidebar {
+  float: left;
+  vertical-align: top;
+  width: 250px;
+}
+
+.single-documentation .doc-sidebar li {
+  display: block;
+  margin: 2px 0;
+  padding: 0 5px;
+}
+
+.single-documentation .doc-sidebar li.current {
+  background: #f2f2f2 none repeat scroll 0 0;
+  border-left: 2px solid #ddd !important;
+}
+
+
+.single-documentation .doc-sidebar li.child {
+  border-left: 1px solid #ddd;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  padding: 0 5px;
+}
+
+
+.single-documentation .doc-sidebar a {
+  display: block;
+  font-size: 14px;
+  padding: 7px 0;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+
+.single-documentation .doc-sections {
+  margin-left: 275px;
+  padding: 0 20px;
+  vertical-align: top;
+}
+
+.single-documentation .doc-sections .doc-title {
+  border-bottom: 1px solid #ddd;
+  font-size: 22px;
+  padding-bottom: 15px;
+  margin-top: 50px;
+}
+
+.single-documentation .doc-sections .doc-content{
+
+}
+
+
+
+.single-documentation .doc-sections.meta {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+
+.single-documentation .doc-sections.meta span {
+  border-right: 1px solid #ddd;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.single-documentation .doc-sections.meta .deprecated {
+  color: #ff5933;
+}
+
+.single-documentation .doc-sections.meta span:last-child {
+  border-right: medium none navy;
+}
+
+
+
+
+
+.single-documentation .doc-buy {
+  background: none repeat scroll 0 0 rgb(176, 230, 255);
+  bottom: 0;
+  font-size: 16px;
+  height: 100px;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  transition: all 1s ease 0s;
+  width: 100%;
+}
+
+.single-documentation .doc-buy.down {
+  border-top: 10px solid rgb(59, 193, 255);
+}
+
+
+.single-documentation .buy-button {
+  background: none repeat scroll 0 0 rgb(59, 193, 255);
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px 20px;
+  padding: 6px 18px;
+  text-decoration: none;
+}
+
+.single-documentation .doc-breadcrumb {
+  margin: 35px 0;
+}
+
+.single-documentation .doc-breadcrumb li {
+  display: inline-block;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  
+}
+.single-documentation .doc-breadcrumb li::after {
+  content: "→";
+  display: inline-block;
+}
+
+
+.single-documentation .doc-breadcrumb li a {
+  background: #f2f2f2 none repeat scroll 0 0;
+  margin: 0 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border:1px solid rgba(0,0,0,0);
+}
+
+.single-documentation .doc-breadcrumb li a:hover {
+border:1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
